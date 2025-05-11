@@ -1,0 +1,18 @@
+.row{
+    position: sticky;
+    color: white;
+    background-color: black;
+    height: 10vh;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: index 1;
+
+}
+   
+.header-left ul li{
+    cursor: pointer;
+}
+
+.header-right ul li{
+    cursor: pointer;
+}

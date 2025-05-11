@@ -1,15 +1,14 @@
+import Home from "./Pages/Home/Home";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import './App.css'
+import "./App.css";
 
 function App() {
-  
-
   return (
-    <>
-      <h1>Hi!</h1>
-       
-    </>
-  )
+    <div className="App">
+      <Home />
+    </div>
+  );
 }
 
-export default App
+export default App;

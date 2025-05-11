@@ -1,0 +1,34 @@
+
+
+/* .row container{
+    background-color: black;
+
+    display: flex;  
+}
+.container{
+    color:grey;
+} */
+ .container{
+    height: max-content;
+    color:grey;
+ }
+
+.footer-icons{
+    justify-content: space-between;
+    cursor: pointer;
+    width: 15px;
+    padding-bottom: 10px;
+    display: flex;
+   
+    align-items: center;
+    margin-left: 10px;
+    /* color:#fff; */
+}   
+ ul li{
+    cursor: pointer;
+}  
+
+.service-code{
+    border: grey 1px solid;
+    text-align: center;
+}
