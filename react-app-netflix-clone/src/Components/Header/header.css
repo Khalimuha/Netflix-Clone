@@ -6,6 +6,7 @@
     transition: all 0.5s;
     transition-timing-function: ease-in;
     z-index: index 1;
+    margin-bottom: 20px;
 
 }
    

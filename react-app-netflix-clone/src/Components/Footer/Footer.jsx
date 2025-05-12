@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="container">
       <div className="row">
         <div className="col-3">
-          <div className="footer-icons gap-2">
+          <div className="footer-icons gap-4">
             <FacebookOutlinedIcon />
             <InstagramIcon />
             <YouTubeIcon />

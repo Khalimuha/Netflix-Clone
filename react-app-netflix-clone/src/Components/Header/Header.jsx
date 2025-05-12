@@ -26,8 +26,8 @@ const Header = () => {
       <div className="header-right col-md-6 d-flex justify-content-end">
         <ul className="gap-4 d-flex align-items-center list-unstyled">
           <li>
-            <SearchIcon />
-          </li>
+          <SearchIcon />
+          </li>  
           <li>
             <NotificationsNoneIcon />
           </li>
