@@ -1,11 +1,13 @@
 import React from "react";
 import "./header.css";
-import netflixLogo from "../../assets/images/netflixLogo.png";
-import SearchIcon from "@mui/icons-material/Search";
-import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
-import AccountBoxIcon from "@mui/icons-material/AccountBox";
-import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import netflixLogo from "../../assets/images/Netflix.png";
 
+// import SearchIcon from "@mui/icons-material/Search";
+import { IoSearch } from "react-icons/io5";
+import { MdNotificationsNone } from "react-icons/md";
+import { MdAccountBox } from "react-icons/md";
+import { IoMdArrowDropdownCircle } from "react-icons/io";
+// 
 const Header = () => {
   return (
     <div className="row">
@@ -26,16 +28,17 @@ const Header = () => {
       <div className="header-right col-md-6 d-flex justify-content-end">
         <ul className="gap-4 d-flex align-items-center list-unstyled">
           <li>
-          <SearchIcon />
-          </li>  
-          <li>
-            <NotificationsNoneIcon />
+            {" "}
+            <IoSearch />{" "}
           </li>
           <li>
-            <AccountBoxIcon />
+            <MdNotificationsNone />
           </li>
           <li>
-            <ArrowDropDownIcon />
+            <MdAccountBox />
+          </li>
+          <li>
+            <IoMdArrowDropdownCircle />
           </li>
         </ul>
       </div>

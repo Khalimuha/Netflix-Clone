@@ -9,14 +9,14 @@ const Footer = () => {
     <div className="container">
       <div className="row">
         <div className="col-3">
-          <div className="footer-icons gap-4">
+          <div className="footer-icons gap-3">
             <FacebookOutlinedIcon />
             <InstagramIcon />
             <YouTubeIcon />
           </div>
           <div className="footer-data d-flex list-unstyled align-items-center">
             <div>
-              <ul className="list-unstyled gap-4 text-secondary">
+              <ul className="list-unstyled gap-3 text-secondary">
                 <li>Audio Description</li>
                 <li>Investor Relations</li>
                 <li>Legal Notice</li>
@@ -27,14 +27,14 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="div-2 col-3 text-secondary">
+        <div className="col-3 text-secondary">
           <ul className="list-unstyled gap-4">
             <li>Help Center</li>
             <li>Jobs</li>
             <li>Cookie Preference</li>
           </ul>
         </div>
-        <div className="div-3 col-3 text-secondary">
+        <div className="col-3 text-secondary">
           <ul className="list-unstyled gap-4">
             <li>Gift Cards</li>
             <li>Terms of Use</li>
