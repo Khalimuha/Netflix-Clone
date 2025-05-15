@@ -1,9 +1,10 @@
 .banner {
-  /* margin-top: 10vh; */
+  margin-top: 5vh;
   height: 80vh;
   margin-bottom: 80px;
   color: white;
-  /* object-fit: contain; */
+  object-fit: contain;
+  overflow-x:unset;
 }
 .banner-contents {
   margin-left: 30px;
@@ -39,8 +40,16 @@
   color: #000;
   background-color: #ffff;
 }
-.banner-banner:hover {
+.banner-button:hover {
   color: #000;
   background-color: #c6c6c6;
-  transform: all0.2s;
+  transform: scale(1.09); /* Example: slightly enlarges the element on hover */
+  transition: all 0.2s ease; /* Smooth transition effect */
 }
+
+/* 
+.banner-fadeBottom {
+  height: 20vh;
+  background-image: linear-gradient(180deg, transparent, rgba(100, 100, 100, 0.91));
+} */
+

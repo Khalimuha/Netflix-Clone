@@ -6,8 +6,8 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 
 const Footer = () => {
   return (
-    <div className="container">
-      <div className="row">
+    <div className="container-fluid">
+      <div className="row pr-5 p-5">
         <div className="col-3">
           <div className="footer-icons gap-3">
             <FacebookOutlinedIcon />
