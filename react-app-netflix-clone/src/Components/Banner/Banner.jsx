@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import requests from "../../utils/requests";
-import axios from "../../utils/axios";
+import instance from "../../utils/axios";
 import "./banner.css";
 
 const Banner = () => {
@@ -8,7 +8,7 @@ const Banner = () => {
   useEffect(() => {
     (async () => {
       try {
-        const request = await axios.get(requests.fetchTvPopularMovies());
+        const request = await instance.get(requests.fetchTvPopularMovies());
         console.log(request);
         setMovie(
           request.data.results[
@@ -18,7 +18,7 @@ const Banner = () => {
       } catch (error) {
         console.log("error", error);
       }
-    })();
+    })(); //immedetely ....  iife
   }, []);
 
   function truncate(str, n) {
