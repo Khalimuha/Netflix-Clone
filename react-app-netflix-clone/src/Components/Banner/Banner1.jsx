@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import requests from "../../api/requests.jsx";
 import instance from "../../api/axios.jsx";
 import "./Banner1.css";
-const Banner1 = () => {
+const Banner = () => {
   let truncate = (text, maxLength) => {
     return text?.length > maxLength ? text.slice(0, maxLength) + "..." : text;
   };

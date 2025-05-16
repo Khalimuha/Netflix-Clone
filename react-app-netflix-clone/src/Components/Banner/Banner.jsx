@@ -8,7 +8,8 @@ const Banner = () => {
   useEffect(() => {
     (async () => {
       try {
-        const request = await instance.get(requests.fetchTvPopularMovies());
+        
+        const request = await instance.get(requests.fetchNetflixOriginals);
         console.log(request);
         setMovie(
           request.data.results[
@@ -21,9 +22,12 @@ const Banner = () => {
     })(); //immedetely ....  iife
   }, []);
 
-  function truncate(str, n) {
-    return str?.length > n ? str.substr(0, n - 1) + "..." : str;
-  }
+  let truncate = (text, maxLength) => {
+    return text?.length > maxLength ? text.slice(0, maxLength) + "..." : text;
+  };
+  // function truncate(str, n) {
+  //   return str?.length > n ? str.substr(0, n - 1) + "..." : str;
+  // }
   return (
     <>
       <div
