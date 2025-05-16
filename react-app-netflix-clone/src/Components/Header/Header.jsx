@@ -11,14 +11,12 @@ function Header() {
   return (
     <div>
       <div className="header-outer-container">
-        {/* Fixed the typo here */}
         <div className="header-container">
           <div className="header-left">
             <ul>
               <li>
                 <img src={logo} alt="netflix logo" />
               </li>
-              <li>Netflix</li>
               <li>Home</li>
               <li>Tv Shows</li>
               <li>Movies</li>

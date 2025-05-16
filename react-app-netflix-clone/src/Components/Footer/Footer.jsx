@@ -1,4 +1,3 @@
-
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -10,9 +9,9 @@ const Footer = () => {
       <div className="footer-outer-container">
         <div className="footer-inner-container">
           <div className="footer-icons">
-            <FacebookIcon className="icon-spacing" />
-            <InstagramIcon className="icon-spacing" />
-            <YouTubeIcon className="icon-spacing" />
+            <FacebookIcon />
+            <InstagramIcon />
+            <YouTubeIcon />
           </div>
 
           <div className="footer-data">
@@ -49,10 +48,10 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="service-code">
-            <p className="code-box">Service Code</p>
+          <div className="pt-5">
+            <p className="service-code">Service Code</p>
+            <p> &copy; 1997-2025 Netflix, inc.</p>
           </div>
-          <div className="copy-right"> &copy; 1997-2024 Netflix, inc.</div>
         </div>
       </div>
     </div>
@@ -60,4 +59,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
