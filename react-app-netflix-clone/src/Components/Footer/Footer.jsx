@@ -1,3 +1,4 @@
+import React from "react";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -14,7 +15,7 @@ const Footer = () => {
             <YouTubeIcon />
           </div>
 
-          <div className="footer-data">
+          <div className="footer-data pb-5">
             <div>
               <ul>
                 <li>Audio Description</li>

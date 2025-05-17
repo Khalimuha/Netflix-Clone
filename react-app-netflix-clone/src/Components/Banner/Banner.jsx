@@ -1,3 +1,4 @@
+import React from "react";
 import { useState, useEffect } from "react";
 import requests from "../../utils/requests";
 import instance from "../../utils/axios";
@@ -8,7 +9,6 @@ const Banner = () => {
   useEffect(() => {
     (async () => {
       try {
-        
         const request = await instance.get(requests.fetchNetflixOriginals);
         console.log(request);
         setMovie(
