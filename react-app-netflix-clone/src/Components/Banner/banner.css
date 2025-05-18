@@ -14,6 +14,7 @@
   justify-content: center; /* Center content vertically */
   align-items: flex-start; /* Align items to the left */
   padding: 10% 2%; /* Responsive padding */
+
   text-align: left; /* Align text to the left */
 }
 
@@ -21,6 +22,8 @@
   font-size: 3rem; /* Title font size */ /* Responsive font size */
   font-weight: 800;
   padding-bottom: 0.5rem; /* Space below the title */
+  padding-top: 10%;
+  padding-left: 3%;
 }
 
 .banner-description {
@@ -29,8 +32,11 @@
   line-height: 1.5; /* Adjust for better readability */
   padding: 1rem 0; /* Padding for the description */
   font-size: 1rem; /* Responsive font size */
+  padding-left: 3%;
 }
-
+.banner-buttons {
+  padding-left: 3%;
+}
 .banner-button {
   cursor: pointer;
   color: #fff;
