@@ -15,7 +15,7 @@ const Footer = () => {
             <YouTubeIcon />
           </div>
 
-          <div className="footer-data pb-5">
+          <div className="footer-data pb-2">
             <div>
               <ul>
                 <li>Audio Description</li>
